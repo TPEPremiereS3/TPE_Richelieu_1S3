@@ -1,0 +1,69 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:17:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:17:11
+	package
+		ADDED from AndroidManifest.xml:18:9
+uses-sdk
+ADDED from AndroidManifest.xml:20:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.android.support:support-v13:23.1.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.android.support:cardview-v7:23.1.0:20:5
+MERGED from com.google.android.gms:play-services-wearable:8.1.0:18:5
+MERGED from com.google.android.gms:play-services-base:8.1.0:18:5
+MERGED from com.google.android.gms:play-services-basement:8.1.0:18:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:21:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:20:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+application
+ADDED from AndroidManifest.xml:24:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.android.support:support-v13:23.1.0:22:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.android.support:cardview-v7:23.1.0:22:5
+MERGED from com.google.android.gms:play-services-wearable:8.1.0:19:5
+MERGED from com.google.android.gms:play-services-basement:8.1.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:27:13
+	android:allowBackup
+		ADDED from AndroidManifest.xml:25:13
+	android:icon
+		ADDED from AndroidManifest.xml:26:13
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:29:9
+MERGED from com.google.android.gms:play-services-basement:8.1.0:21:9
+	android:name
+		ADDED from AndroidManifest.xml:30:13
+	android:value
+		ADDED from AndroidManifest.xml:31:13
+activity#com.example.android.wearable.HeartAlert.MainActivity
+ADDED from AndroidManifest.xml:33:9
+	android:label
+		ADDED from AndroidManifest.xml:35:17
+	android:name
+		ADDED from AndroidManifest.xml:34:17
+	android:launchMode
+		ADDED from AndroidManifest.xml:36:17
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:37:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:38:17
+	android:name
+		ADDED from AndroidManifest.xml:38:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:39:17
+	android:name
+		ADDED from AndroidManifest.xml:39:27

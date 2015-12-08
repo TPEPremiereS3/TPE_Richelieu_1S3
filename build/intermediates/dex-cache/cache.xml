@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\pre-dexed\debug\classes-aba2a7d832b787a41e8580d7db8235f8ae1d0386.jar" />
+    </item>
+    <item
+        jar="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\pre-dexed\debug\classes-e46a1b8d87424737d62a28f35a0d8feb7f1dfd4b.jar" />
+    </item>
+    <item
+        jar="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
+        <dex dex="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\pre-dexed\debug\classes-6a8ee184227224b68da9001cd5781ea2a61e899f.jar" />
+    </item>
+    <item
+        jar="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\pre-dexed\debug\classes-cd50ff9bd6eb5f797df7e8be6d1be75de3fb3961.jar" />
+    </item>
+    <item
+        jar="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
+        <dex dex="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-253725fb66a991814b78c337e032baaf9761aa8f.jar" />
+    </item>
+    <item
+        jar="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\pre-dexed\debug\classes-41b4cb3cf4d704d5c0654a8155cddb2fb33daed6.jar" />
+    </item>
+    <item
+        jar="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\pre-dexed\debug\classes-1ef3afd85b5d8d436fa8b688716b4e929c85f68b.jar" />
+    </item>
+    <item
+        jar="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\exploded-aar\com.google.android.support\wearable\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="58b928ccbaf9090c632f278d6bd31e1ae42f2457">
+        <dex dex="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\pre-dexed\debug\classes-d333cd1010c5221237e461a73cd4ba4609fd0f2a.jar" />
+    </item>
+    <item
+        jar="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-a97b2dfcd9c1c01a1d88438a45e3f86b645be486.jar" />
+    </item>
+    <item
+        jar="C:\Users\olivier\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\olivier\AndroidStudioProjects\TPE_Richelieu_1S3\Wearable\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-efe1dd691137d703610e8a2bf2bf4cdbd9c06c2d.jar" />
+    </item>
+
+</items>
