@@ -36,6 +36,7 @@ public class WearableMessageListenerService extends WearableListenerService {
     public void onMessageReceived(MessageEvent event) {
         if (event.getPath().equals(START_ACTIVITY_PATH)) {
             MainActivity.mDemo = false;
+            //attention bug
             Intent startIntent = new Intent(this, MainActivity.class);
             startIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(startIntent);
