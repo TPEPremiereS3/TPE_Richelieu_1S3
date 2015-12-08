@@ -123,7 +123,7 @@ public  class MainActivity extends Activity implements
                 else mTextViewHeart.setText("Initializing");
             Log.d(TAG, msg);
 
-            if (mOldbpm != (int) event.values[0]) {
+            if (mOldbpm != (int) event.values[0] && event.values[0]!=0) {
 
                 if (mDemo==false) {
                     //TODO vérifier fonction alerte
