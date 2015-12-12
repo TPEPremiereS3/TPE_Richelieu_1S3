@@ -32,6 +32,9 @@ public class WearableMessageListenerService extends WearableListenerService {
 
     @Override
     public void onMessageReceived(MessageEvent event) {
+
+        Log.d ("tag",event.getPath() );
+
         if (event.getPath().equals(START_ACTIVITY_PATH)) {
             MainActivity.mDemo = false;
             Intent startIntent = new Intent(this, MainActivity.class);

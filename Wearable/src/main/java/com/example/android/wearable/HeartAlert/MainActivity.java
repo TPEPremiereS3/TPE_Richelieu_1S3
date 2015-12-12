@@ -79,6 +79,10 @@ public  class MainActivity extends WearableActivity implements
     public void onCreate(Bundle b) {
         super.onCreate(b);
 
+        String msg = "OnCreate " + mDemo ;
+        Log.d(TAG, msg);
+
+
         setAmbientEnabled();
 
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
@@ -123,14 +127,27 @@ public  class MainActivity extends WearableActivity implements
             if (mTextViewHeart != null)
                 if (event.values[0] != 0) mTextViewHeart.setText(msg);
                 else mTextViewHeart.setText("Initializing");
-            Log.d(TAG, msg);
 
-            if (mOldbpm != (int) event.values[0] && event.values[0]!=0) {
+//            Log.d(TAG, msg);
 
-                if (mDemo==false) {
+            if (mDemo==true) {
+
+                Notification notification = new Notification.Builder(this)
+                        .setContentTitle(getString(R.string.notification_title))
+                        .setContentText(getString(R.string.notification_alert_raised))
+                        .build();
+                ((NotificationManager) getSystemService(NOTIFICATION_SERVICE)).notify(0, notification);
+                sendMessageToCompanion(ALERT_RAISED);
+
+                mDemo=false;
+            }
+
+
+
+            if (mOldbpm != (int) event.values[0] && event.values[0]!=0 && !mDemo) {
+
                     //TODO vérifier fonction alerte
                     if ((event.values[0] - mOldbpm > 10)||(mOldbpm - event.values[0]>10)) {
-
 
                         //TODO confirmation
 
@@ -142,17 +159,6 @@ public  class MainActivity extends WearableActivity implements
                         sendMessageToCompanion(ALERT_RAISED);
 
                     }
-                }
-
-                else {
-
-                    Notification notification = new Notification.Builder(this)
-                            .setContentTitle(getString(R.string.notification_title))
-                            .setContentText(getString(R.string.notification_alert_raised))
-                            .build();
-                    ((NotificationManager) getSystemService(NOTIFICATION_SERVICE)).notify(0, notification);
-                    sendMessageToCompanion(ALERT_RAISED);
-                }
 
                 mOldbpm = (int) event.values[0];
             }
@@ -174,6 +180,9 @@ public  class MainActivity extends WearableActivity implements
         if (mSensorManager != null){
             mSensorManager.registerListener(this, mHeartSensor, SensorManager.SENSOR_DELAY_NORMAL);
         }
+
+        String msg = "OnResume " + mDemo ;
+        Log.d(TAG, msg);
 
     }
 

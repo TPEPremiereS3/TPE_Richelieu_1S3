@@ -87,6 +87,9 @@ public class MainActivity extends Activity implements MessageApi.MessageListener
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
+                Log.e(TAG, "Message reçu :"
+                        + messageEvent.getPath());
+
                 if (messageEvent.getPath().equals(ALERT_RAISED)) {
                     //
                     //todo call 911
