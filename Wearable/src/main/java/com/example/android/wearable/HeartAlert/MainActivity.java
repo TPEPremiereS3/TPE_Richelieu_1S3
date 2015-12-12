@@ -16,7 +16,6 @@
 
 package com.example.android.wearable.HeartAlert;
 
-//todo always on
 
 import android.app.Activity;
 import android.app.Notification;
@@ -26,6 +25,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.support.wearable.activity.WearableActivity;
 import android.support.wearable.view.WatchViewStub;
 import android.util.Log;
 import android.widget.TextView;
@@ -43,7 +43,7 @@ import com.google.android.gms.wearable.Wearable;
 import java.util.Set;
 
 
-public  class MainActivity extends Activity implements
+public  class MainActivity extends WearableActivity implements
         SensorEventListener,
         GoogleApiClient.OnConnectionFailedListener,
         GoogleApiClient.ConnectionCallbacks,
@@ -78,6 +78,8 @@ public  class MainActivity extends Activity implements
     @Override
     public void onCreate(Bundle b) {
         super.onCreate(b);
+
+        setAmbientEnabled();
 
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         mHeartSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_HEART_RATE); //wellness sensor
@@ -157,8 +159,6 @@ public  class MainActivity extends Activity implements
         }
     }
 
-
-
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
         Log.d(TAG, "onAccuracyChanged - accuracy: " + accuracy);
@@ -187,8 +187,7 @@ public  class MainActivity extends Activity implements
         super.onPause();
     }
 
-
-    @Override
+        @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
         Log.e(TAG, "Failed to connect to Google Api Client");
         mConfirmationHandlerNode = null;
