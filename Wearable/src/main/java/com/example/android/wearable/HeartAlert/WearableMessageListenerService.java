@@ -30,8 +30,6 @@ public class WearableMessageListenerService extends WearableListenerService {
     private static final String START_ACTIVITY_PATH = "/start-activity";
     private static final String START_DEMO_PATH = "/start-demo";
 
-
-
     @Override
     public void onMessageReceived(MessageEvent event) {
         if (event.getPath().equals(START_ACTIVITY_PATH)) {
@@ -39,14 +37,12 @@ public class WearableMessageListenerService extends WearableListenerService {
             Intent startIntent = new Intent(this, MainActivity.class);
             startIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(startIntent);
-
         }
         if (event.getPath().equals(START_DEMO_PATH)) {
             MainActivity.mDemo = true;
             Intent startIntent = new Intent(this, MainActivity.class);
             startIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(startIntent);
-            MainActivity.mDemo = false;
         }
     }
 }
