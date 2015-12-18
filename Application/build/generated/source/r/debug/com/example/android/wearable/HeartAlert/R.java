@@ -260,8 +260,9 @@ containing a value of this type.
         public static final int start=0x7f040024;
         public static final int start_demo=0x7f040025;
         public static final int start_wearable_activity=0x7f040026;
-        public static final int toast_alert_raised=0x7f040027;
-        public static final int toast_sensor_started=0x7f040028;
+        public static final int stop=0x7f040027;
+        public static final int toast_alert_raised=0x7f040028;
+        public static final int toast_sensor_started=0x7f040029;
     }
     public static final class style {
         public static final int AppTheme=0x7f060002;

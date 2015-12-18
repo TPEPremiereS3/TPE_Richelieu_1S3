@@ -107,6 +107,7 @@
     <string name="start">Démarrer</string>
     <string name="start_demo">Démo</string>
     <string name="start_wearable_activity">Surveillance</string>
+    <string name="stop">Stop</string>
     <string name="toast_alert_raised">Call 911</string>
     <string name="toast_sensor_started">Surveillance lancée</string>
     <!-- From: file:/C:/Users/olivier/AndroidStudioProjects/TPE_Richelieu_1S3/Application/src/main/res/values/template-styles.xml -->

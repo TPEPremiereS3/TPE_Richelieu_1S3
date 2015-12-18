@@ -39,12 +39,14 @@ public class WearableMessageListenerService extends WearableListenerService {
             MainActivity.mDemo = false;
             Intent startIntent = new Intent(this, MainActivity.class);
             startIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(startIntent);
         }
         if (event.getPath().equals(START_DEMO_PATH)) {
             MainActivity.mDemo = true;
             Intent startIntent = new Intent(this, MainActivity.class);
             startIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(startIntent);
         }
     }

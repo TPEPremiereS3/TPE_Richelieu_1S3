@@ -114,8 +114,9 @@ int string intro_message 0x7f040023
 int string start 0x7f040024
 int string start_demo 0x7f040025
 int string start_wearable_activity 0x7f040026
-int string toast_alert_raised 0x7f040027
-int string toast_sensor_started 0x7f040028
+int string stop 0x7f040027
+int string toast_alert_raised 0x7f040028
+int string toast_sensor_started 0x7f040029
 int style AppTheme 0x7f060002
 int style CardView 0x7f060003
 int style CardView_Dark 0x7f060004

@@ -16,7 +16,6 @@
 
 package com.example.android.wearable.HeartAlert;
 
-
 import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -41,7 +40,6 @@ import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.Wearable;
 
 import java.util.Set;
-
 
 public  class MainActivity extends WearableActivity implements
         SensorEventListener,
@@ -111,11 +109,6 @@ public  class MainActivity extends WearableActivity implements
                 .build();
     }
 
-    @Override
-    public void onDestroy(){
-        super.onDestroy();
-        mSensorManager.unregisterListener(this);
-    }
 
 
     @Override
